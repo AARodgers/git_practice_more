@@ -18,4 +18,28 @@
     - 'git remote -v' too see which repos you are attached to
     - "git push origin master' ( origin ) :origin name of repos
     - in github: 
-    -        
+    -  git init
+    - git status
+    -    git add .  
+    - git remote
+
+    - to push to remote: git push origin master
+
+
+
+    New Project: 
+    -git init  to set stage
+    - do code
+    - git status: if red not staged, 
+    - git add filename or dot, if green
+    - git commit -m "message"
+    - when done, ready to push to remote: 
+    - git remote -v  if nothing there u didn't already make one
+    - go to github new repo
+    - copy line/url: git remote add origin  url...
+    - paste in terminal 
+    -git push origin master
+
+
+
+    
