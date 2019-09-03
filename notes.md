@@ -36,9 +36,16 @@
     - when done, ready to push to remote: 
     - git remote -v  if nothing there u didn't already make one
     - go to github new repo
-    - copy line/url: git remote add origin  url...
+    - copy line/url: git remote add origin  url...( only have to do once)
     - paste in terminal 
     -git push origin master
+
+To make changes to repo: 
+- git init
+- git status
+- git add <file_name>
+- git commit -m "New Message"
+- git push origin master
 
 
 
