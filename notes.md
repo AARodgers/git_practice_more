@@ -1,0 +1,21 @@
+- stage, commit, push
+-Stage: 
+    - changes have to be staged
+    - what is going on local: 'git status'
+    - to stage: 'git add file_name' ( notes.md)
+    - to save or commmit: 'git add .' is shortcut above but will change all files in red, it will stage/save everything
+    - 'git status' if green everything saved
+    -'git commit -m' "Descriptive note about what you did" ex. "Adds notes." in present tense
+    - -m tags the message
+    - To Recap: 
+        - have directory, file.md ( is tracking any changes)
+        - 'git add <filename>'
+        - save changes: 'git commit -m'
+    - This is all local on your computer = local repository
+
+- Commit: 
+    - 'git push'
+    - 'git remote -v' too see which repos you are attached to
+    - "git push origin master' ( origin ) :origin name of repos
+    - in github: 
+    -        
