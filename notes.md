@@ -41,10 +41,11 @@
     -git push origin master
 
 To make changes to repo: 
-- git init
+
 - git status
-- git add <file_name>
+- git add . <file_name> ( staging)
 - git commit -m "New Message"
+
 - git push origin master
 
 
